@@ -26,10 +26,6 @@ public class YYThreadPoolRPOP  implements Runnable, Serializable {
 
 	@Override
 	public void run() {
-		
-		
-		
-		
 		try {
 			byte[] b = null;
 			while ( (b= yyCommondRPOP.getRPOPByte()) != null){
